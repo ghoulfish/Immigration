@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.view.ResultDialogController">
+   <children>
+      <GridPane layoutX="108.0" layoutY="14.0" prefHeight="549.0" prefWidth="425.0" AnchorPane.bottomAnchor="37.0" AnchorPane.leftAnchor="108.0" AnchorPane.rightAnchor="107.0" AnchorPane.topAnchor="14.0">
+        <columnConstraints>
+          <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="315.0" minWidth="10.0" prefWidth="184.0" />
+            <ColumnConstraints halignment="LEFT" hgrow="SOMETIMES" maxWidth="582.0" minWidth="10.0" prefWidth="241.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Label text="总得分" textFill="RED" GridPane.halignment="RIGHT">
+               <GridPane.margin>
+                  <Insets />
+               </GridPane.margin></Label>
+            <Label text="年龄" GridPane.halignment="RIGHT" GridPane.rowIndex="2">
+               <GridPane.margin>
+                  <Insets />
+               </GridPane.margin></Label>
+            <Label text="学历" GridPane.halignment="RIGHT" GridPane.rowIndex="3">
+               <GridPane.margin>
+                  <Insets />
+               </GridPane.margin></Label>
+            <Label text="第一语言" GridPane.halignment="RIGHT" GridPane.rowIndex="4">
+               <GridPane.margin>
+                  <Insets />
+               </GridPane.margin></Label>
+            <Label text="第二语言" GridPane.halignment="RIGHT" GridPane.rowIndex="5">
+               <GridPane.margin>
+                  <Insets />
+               </GridPane.margin></Label>
+            <Label text="加拿大工作经历" GridPane.halignment="RIGHT" GridPane.rowIndex="6">
+               <GridPane.margin>
+                  <Insets />
+               </GridPane.margin></Label>
+            <Label text="配偶学历" GridPane.halignment="RIGHT" GridPane.rowIndex="8">
+               <GridPane.margin>
+                  <Insets />
+               </GridPane.margin></Label>
+            <Label text="配偶第一语言" GridPane.halignment="RIGHT" GridPane.rowIndex="9">
+               <GridPane.margin>
+                  <Insets />
+               </GridPane.margin></Label>
+            <Label text="配偶加拿大工作经历" GridPane.halignment="RIGHT" GridPane.rowIndex="10">
+               <GridPane.margin>
+                  <Insets />
+               </GridPane.margin></Label>
+            <Label text="教育背景x语言能力" GridPane.halignment="RIGHT" GridPane.rowIndex="12">
+               <GridPane.margin>
+                  <Insets />
+               </GridPane.margin></Label>
+            <Label text="A类. 核心因素" textFill="RED" GridPane.halignment="RIGHT" GridPane.rowIndex="1">
+               <GridPane.margin>
+                  <Insets />
+               </GridPane.margin></Label>
+            <Label text="B类. 配偶因素" textFill="RED" GridPane.halignment="RIGHT" GridPane.rowIndex="7">
+               <GridPane.margin>
+                  <Insets />
+               </GridPane.margin></Label>
+            <Label text="C类. 能力转移因素" textFill="RED" GridPane.halignment="RIGHT" GridPane.rowIndex="11">
+               <GridPane.margin>
+                  <Insets />
+               </GridPane.margin></Label>
+            <Label text="D类. 附加分" textFill="RED" GridPane.halignment="RIGHT" GridPane.rowIndex="17">
+               <GridPane.margin>
+                  <Insets />
+               </GridPane.margin></Label>
+            <Label text="教育背景x加拿大工作经验" GridPane.halignment="RIGHT" GridPane.rowIndex="13">
+               <GridPane.margin>
+                  <Insets />
+               </GridPane.margin></Label>
+            <Label text="海外工作经验x语言能力" GridPane.halignment="RIGHT" GridPane.rowIndex="14">
+               <GridPane.margin>
+                  <Insets />
+               </GridPane.margin></Label>
+            <Label text="海外工作经验x加拿大工作经验" GridPane.halignment="RIGHT" GridPane.rowIndex="15">
+               <GridPane.margin>
+                  <Insets />
+               </GridPane.margin></Label>
+            <Label text="资格认证" GridPane.halignment="RIGHT" GridPane.rowIndex="16">
+               <GridPane.margin>
+                  <Insets />
+               </GridPane.margin></Label>
+            <Label text="在加拿大有兄弟姐妹" GridPane.halignment="RIGHT" GridPane.rowIndex="18">
+               <GridPane.margin>
+                  <Insets />
+               </GridPane.margin></Label>
+            <Label text="法语水平加分" GridPane.halignment="RIGHT" GridPane.rowIndex="19">
+               <GridPane.margin>
+                  <Insets />
+               </GridPane.margin></Label>
+            <Label text="在加拿大学历" GridPane.halignment="RIGHT" GridPane.rowIndex="20">
+               <GridPane.margin>
+                  <Insets />
+               </GridPane.margin></Label>
+            <Label text="省提名" GridPane.halignment="RIGHT" GridPane.rowIndex="22">
+               <GridPane.margin>
+                  <Insets />
+               </GridPane.margin></Label>
+            <Label text="雇主担保" GridPane.halignment="RIGHT" GridPane.rowIndex="21">
+               <GridPane.margin>
+                  <Insets />
+               </GridPane.margin></Label>
+            <Label fx:id="totalScore" GridPane.columnIndex="1" GridPane.halignment="LEFT">
+               <GridPane.margin>
+                  <Insets left="20.0" />
+               </GridPane.margin></Label>
+            <Label fx:id="factorAScore" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <GridPane.margin>
+                  <Insets left="20.0" />
+               </GridPane.margin></Label>
+            <Label fx:id="ageScore" GridPane.columnIndex="1" GridPane.rowIndex="2">
+               <GridPane.margin>
+                  <Insets left="20.0" />
+               </GridPane.margin></Label>
+            <Label fx:id="eduLevelScore" GridPane.columnIndex="1" GridPane.rowIndex="3">
+               <GridPane.margin>
+                  <Insets left="20.0" />
+               </GridPane.margin></Label>
+            <Label fx:id="langFirstScore" GridPane.columnIndex="1" GridPane.rowIndex="4">
+               <GridPane.margin>
+                  <Insets left="20.0" />
+               </GridPane.margin></Label>
+            <Label fx:id="langSecondScore" GridPane.columnIndex="1" GridPane.rowIndex="5">
+               <GridPane.margin>
+                  <Insets left="20.0" />
+               </GridPane.margin></Label>
+            <Label fx:id="canadianWorkExpScore" GridPane.columnIndex="1" GridPane.rowIndex="6">
+               <GridPane.margin>
+                  <Insets left="20.0" />
+               </GridPane.margin></Label>
+            <Label fx:id="factorBScore" GridPane.columnIndex="1" GridPane.rowIndex="7">
+               <GridPane.margin>
+                  <Insets left="20.0" />
+               </GridPane.margin></Label>
+            <Label fx:id="spouseEduScore" GridPane.columnIndex="1" GridPane.rowIndex="8">
+               <GridPane.margin>
+                  <Insets left="20.0" />
+               </GridPane.margin></Label>
+            <Label fx:id="spouseLangScore" GridPane.columnIndex="1" GridPane.rowIndex="9">
+               <GridPane.margin>
+                  <Insets left="20.0" />
+               </GridPane.margin></Label>
+            <Label fx:id="spouseWorkExpScore" GridPane.columnIndex="1" GridPane.rowIndex="10">
+               <GridPane.margin>
+                  <Insets left="20.0" />
+               </GridPane.margin></Label>
+            <Label fx:id="factorCScore" GridPane.columnIndex="1" GridPane.rowIndex="11">
+               <GridPane.margin>
+                  <Insets left="20.0" />
+               </GridPane.margin></Label>
+            <Label fx:id="eduLangScore" GridPane.columnIndex="1" GridPane.rowIndex="12">
+               <GridPane.margin>
+                  <Insets left="20.0" />
+               </GridPane.margin></Label>
+            <Label fx:id="eduExpScore" GridPane.columnIndex="1" GridPane.rowIndex="13">
+               <GridPane.margin>
+                  <Insets left="20.0" />
+               </GridPane.margin></Label>
+            <Label fx:id="foreighExpLangScore" GridPane.columnIndex="1" GridPane.rowIndex="14">
+               <GridPane.margin>
+                  <Insets left="20.0" />
+               </GridPane.margin></Label>
+            <Label fx:id="foreignExpExpScore" GridPane.columnIndex="1" GridPane.rowIndex="15">
+               <GridPane.margin>
+                  <Insets left="20.0" />
+               </GridPane.margin></Label>
+            <Label fx:id="certScore" GridPane.columnIndex="1" GridPane.rowIndex="16">
+               <GridPane.margin>
+                  <Insets left="20.0" />
+               </GridPane.margin></Label>
+            <Label fx:id="factorDScore" GridPane.columnIndex="1" GridPane.rowIndex="17">
+               <GridPane.margin>
+                  <Insets left="20.0" />
+               </GridPane.margin></Label>
+            <Label fx:id="broOrSisScore" GridPane.columnIndex="1" GridPane.rowIndex="18">
+               <GridPane.margin>
+                  <Insets left="20.0" />
+               </GridPane.margin></Label>
+            <Label fx:id="frenchScore" GridPane.columnIndex="1" GridPane.rowIndex="19">
+               <GridPane.margin>
+                  <Insets left="20.0" />
+               </GridPane.margin></Label>
+            <Label fx:id="eduInCAScore" GridPane.columnIndex="1" GridPane.rowIndex="20">
+               <GridPane.margin>
+                  <Insets left="20.0" />
+               </GridPane.margin></Label>
+            <Label fx:id="LMIAScore" GridPane.columnIndex="1" GridPane.rowIndex="21">
+               <GridPane.margin>
+                  <Insets left="20.0" />
+               </GridPane.margin></Label>
+            <Label fx:id="nomScore" GridPane.columnIndex="1" GridPane.rowIndex="22">
+               <GridPane.margin>
+                  <Insets left="20.0" />
+               </GridPane.margin></Label>
+         </children>
+      </GridPane>
+      <Button fx:id="backButton" layoutX="574.0" layoutY="563.0" mnemonicParsing="false" onAction="#back" text="返回" />
+   </children>
+</AnchorPane>

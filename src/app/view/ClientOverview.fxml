@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.view.ClientOverviewController">
+   <children>
+      <GridPane layoutX="14.0" layoutY="14.0">
+        <columnConstraints>
+          <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="100.0" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="500.0" minWidth="10.0" prefWidth="500.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Label id="age" text="年龄" />
+            <Label id="eduLevel" text="学历" GridPane.rowIndex="1" />
+            <Label id="langFirst" text="第一语言" GridPane.rowIndex="2" />
+            <Label id="langSecond" text="第二语言" GridPane.rowIndex="4" />
+            <TextField fx:id="age" maxWidth="150.0" promptText="请输入年龄" GridPane.columnIndex="1" />
+            <ChoiceBox id="eduLevelBox" fx:id="eduLevelBox" prefWidth="150.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <ChoiceBox fx:id="langFirstBox" prefWidth="150.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <ChoiceBox fx:id="langSecondBox" prefWidth="150.0" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+            <Label text="听力" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+            <Label text="口语" GridPane.columnIndex="1" GridPane.rowIndex="3">
+               <GridPane.margin>
+                  <Insets left="80.0" />
+               </GridPane.margin>
+            </Label>
+            <Label text="阅读" GridPane.columnIndex="1" GridPane.rowIndex="3">
+               <GridPane.margin>
+                  <Insets left="160.0" />
+               </GridPane.margin>
+            </Label>
+            <Label text="写作" GridPane.columnIndex="1" GridPane.rowIndex="3">
+               <GridPane.margin>
+                  <Insets left="240.0" />
+               </GridPane.margin>
+            </Label>
+            <Label text="写作" GridPane.columnIndex="1" GridPane.rowIndex="5">
+               <GridPane.margin>
+                  <Insets left="240.0" />
+               </GridPane.margin>
+            </Label>
+            <Label text="阅读" GridPane.columnIndex="1" GridPane.rowIndex="5">
+               <GridPane.margin>
+                  <Insets left="160.0" />
+               </GridPane.margin>
+            </Label>
+            <Label text="口语" GridPane.columnIndex="1" GridPane.rowIndex="5">
+               <GridPane.margin>
+                  <Insets left="80.0" />
+               </GridPane.margin>
+            </Label>
+            <Label text="听力" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+            <TextField fx:id="langFirstListening" maxWidth="40.0" GridPane.columnIndex="1" GridPane.rowIndex="3">
+               <GridPane.margin>
+                  <Insets left="30.0" />
+               </GridPane.margin>
+            </TextField>
+            <TextField fx:id="langFirstSpeaking" maxWidth="40.0" GridPane.columnIndex="1" GridPane.rowIndex="3">
+               <GridPane.margin>
+                  <Insets left="110.0" />
+               </GridPane.margin>
+            </TextField>
+            <TextField fx:id="langFirstReading" maxWidth="40.0" GridPane.columnIndex="1" GridPane.rowIndex="3">
+               <GridPane.margin>
+                  <Insets left="190.0" />
+               </GridPane.margin>
+            </TextField>
+            <TextField fx:id="langFirstWriting" maxWidth="40.0" GridPane.columnIndex="1" GridPane.rowIndex="3">
+               <GridPane.margin>
+                  <Insets left="270.0" />
+               </GridPane.margin>
+            </TextField>
+            <TextField fx:id="langSecondListening" maxWidth="40.0" GridPane.columnIndex="1" GridPane.rowIndex="5">
+               <GridPane.margin>
+                  <Insets left="30.0" />
+               </GridPane.margin>
+            </TextField>
+            <TextField fx:id="langSecondSpeaking" maxWidth="40.0" GridPane.columnIndex="1" GridPane.rowIndex="5">
+               <GridPane.margin>
+                  <Insets left="110.0" />
+               </GridPane.margin>
+            </TextField>
+            <TextField fx:id="langSecondReading" maxWidth="40.0" GridPane.columnIndex="1" GridPane.rowIndex="5">
+               <GridPane.margin>
+                  <Insets left="190.0" />
+               </GridPane.margin>
+            </TextField>
+            <TextField fx:id="langSecondWriting" maxWidth="40.0" GridPane.columnIndex="1" GridPane.rowIndex="5">
+               <GridPane.margin>
+                  <Insets left="270.0" />
+               </GridPane.margin>
+            </TextField>
+            <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="15.0" prefWidth="358.0" text="申请人第一语言选择英语考试, 第二语言请选择法语考试, 反之亦然" GridPane.columnIndex="1" GridPane.rowIndex="2">
+               <GridPane.margin>
+                  <Insets left="150.0" />
+               </GridPane.margin>
+            </Label>
+            <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="15.0" prefWidth="358.0" text="申请人第一语言选择英语考试, 第二语言请选择法语考试, 反之亦然" GridPane.columnIndex="1" GridPane.rowIndex="4">
+               <GridPane.margin>
+                  <Insets left="150.0" />
+               </GridPane.margin>
+            </Label>
+            <Label text="婚姻状态" GridPane.rowIndex="12" />
+            <Label text="工作经验" GridPane.rowIndex="6" />
+            <Label text="加拿大工作经验" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+            <Label text="技能认证" GridPane.rowIndex="7" />
+            <TextField fx:id="canadianWorkExp" maxWidth="40.0" GridPane.columnIndex="1" GridPane.rowIndex="6">
+               <GridPane.margin>
+                  <Insets left="90.0" />
+               </GridPane.margin>
+            </TextField>
+            <Label text="海外工作经验" GridPane.columnIndex="1" GridPane.rowIndex="6">
+               <GridPane.margin>
+                  <Insets left="150.0" />
+               </GridPane.margin>
+            </Label>
+            <TextField fx:id="foreignWorkExp" maxWidth="40.0" GridPane.columnIndex="1" GridPane.rowIndex="6">
+               <GridPane.margin>
+                  <Insets left="230.0" />
+               </GridPane.margin>
+            </TextField>
+            <CheckBox fx:id="cert" mnemonicParsing="false" text="Certificate of qualification (trade occupations)" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+            <Label text="兄弟姐妹" GridPane.rowIndex="8" />
+            <CheckBox fx:id="broOrSis" mnemonicParsing="false" text="申请人有兄弟姐妹(Citizen or Perminant Resident)" GridPane.columnIndex="1" GridPane.rowIndex="8" />
+            <Label text="加拿大学历" GridPane.rowIndex="9" />
+            <ChoiceBox fx:id="eduInCABox" prefWidth="150.0" GridPane.columnIndex="1" GridPane.rowIndex="9" />
+            <Label text="雇主担保" GridPane.rowIndex="10" />
+            <ChoiceBox fx:id="LMIABox" prefWidth="150.0" GridPane.columnIndex="1" GridPane.rowIndex="10" />
+            <Label text="省提名" GridPane.rowIndex="11" />
+            <CheckBox fx:id="nom" mnemonicParsing="false" text="Provincial or territorial nomination" GridPane.columnIndex="1" GridPane.rowIndex="11" />
+            <CheckBox fx:id="married" mnemonicParsing="false" text="已婚或有同居伴侣" GridPane.columnIndex="1" GridPane.rowIndex="12" />
+            <Label text="配偶学历" GridPane.rowIndex="13" />
+            <ChoiceBox fx:id="spouseEduBox" prefWidth="150.0" GridPane.columnIndex="1" GridPane.rowIndex="13" />
+            <Label text="配偶第一语言" GridPane.rowIndex="14" />
+            <ChoiceBox fx:id="spouseLangBox" prefWidth="150.0" GridPane.columnIndex="1" GridPane.rowIndex="14" />
+            <Label text="听力" GridPane.columnIndex="1" GridPane.rowIndex="15" />
+            <Label text="口语" GridPane.columnIndex="1" GridPane.rowIndex="15">
+               <GridPane.margin>
+                  <Insets left="80.0" />
+               </GridPane.margin>
+            </Label>
+            <Label text="阅读" GridPane.columnIndex="1" GridPane.rowIndex="15">
+               <GridPane.margin>
+                  <Insets left="160.0" />
+               </GridPane.margin>
+            </Label>
+            <Label text="写作" GridPane.columnIndex="1" GridPane.rowIndex="15">
+               <GridPane.margin>
+                  <Insets left="240.0" />
+               </GridPane.margin>
+            </Label>
+            <TextField fx:id="spouseLangListening" maxWidth="40.0" GridPane.columnIndex="1" GridPane.rowIndex="15">
+               <GridPane.margin>
+                  <Insets left="30.0" />
+               </GridPane.margin>
+            </TextField>
+            <TextField fx:id="spouseLangSpeaking" maxWidth="40.0" GridPane.columnIndex="1" GridPane.rowIndex="15">
+               <GridPane.margin>
+                  <Insets left="110.0" />
+               </GridPane.margin>
+            </TextField>
+            <TextField fx:id="spouseLangReading" maxWidth="40.0" GridPane.columnIndex="1" GridPane.rowIndex="15">
+               <GridPane.margin>
+                  <Insets left="190.0" />
+               </GridPane.margin>
+            </TextField>
+            <TextField fx:id="spouseLangWriting" maxWidth="40.0" GridPane.columnIndex="1" GridPane.rowIndex="15">
+               <GridPane.margin>
+                  <Insets left="270.0" />
+               </GridPane.margin>
+            </TextField>
+            <Label text="配偶工作经验" GridPane.rowIndex="16" />
+            <TextField fx:id="spouseWorkExp" maxWidth="40.0" GridPane.columnIndex="1" GridPane.rowIndex="16" />
+            <Label text="年" GridPane.columnIndex="1" GridPane.rowIndex="16">
+               <GridPane.margin>
+                  <Insets left="45.0" />
+               </GridPane.margin>
+            </Label>
+         </children>
+      </GridPane>
+      <Button id="SubmitButton" fx:id="submitButton" layoutX="574.0" layoutY="563.0" mnemonicParsing="false" onAction="#goSubmit" text="提交" />
+   </children>
+</AnchorPane>
